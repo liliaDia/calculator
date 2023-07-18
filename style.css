@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  padding: 20px;
+  gap: 4px;
+  width: 400px;
+  height: 600px;
+}
+.row {
+  display: flex;
+  flex: 1;
+  gap: 3px;
+}
+.button {
+  flex: 1;
+}
+.button-wide {
+  flex: 2.25;
+}
+.opperations-box {
+  height: 100px;
+}
